@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/IAuthService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/LightDe-Api/src/LightDe.WebApi.Apllication/Models/Payload/NetworkPayload.cs">
     <Files>
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Models/Contsants/RoleConstants.cs" Line="22" Column="15" IsPinned="True" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/LigthLocationController.cs" Line="51" Column="1" />
@@ -20,12 +20,15 @@
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/IPersonaService.cs" Line="11" Column="60" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/PersonaService.cs" Line="204" Column="49" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Api/Helper/Seeds.cs" Line="18" Column="1" />
-      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthController.cs" Line="47" Column="54" />
-      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/AuthService.cs" Line="74" Column="43" />
+      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthController.cs" Line="30" Column="16" />
+      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/AuthService.cs" Line="87" Column="1" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Models/Payload/PersonaPayload.cs" Line="1" Column="1" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Notification/PersonForgotPasswordNotification.cs" Line="7" Column="18" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthRecoveryController.cs" Line="1" Column="1" />
       <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/IAuthService.cs" Line="12" Column="38" />
+      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Network/RechargeService.cs" Line="1" Column="1" />
+      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Network/IRechargeService.cs" Line="11" Column="44" />
+      <File FileName="src/LightDe-Api/src/LightDe.WebApi.Apllication/Models/Payload/NetworkPayload.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,38 +37,19 @@
             <Node name="src" expanded="True">
               <Node name="LightDe-Api" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="LightDe.WebApi.Api" expanded="True">
-                    <Node name="Authorization" expanded="True" />
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Extension" expanded="True" />
-                    <Node name="Helper" expanded="True" />
-                    <Node name="Properties" expanded="True" />
-                  </Node>
                   <Node name="LightDe.WebApi.Apllication" expanded="True">
                     <Node name="Models" expanded="True">
-                      <Node name="Contsants" expanded="True" />
-                      <Node name="Payload" expanded="True" />
-                      <Node name="Resources" expanded="True">
-                        <Node name="Location" expanded="True" />
+                      <Node name="Payload" expanded="True">
+                        <Node name="NetworkPayload.cs" selected="True" />
                       </Node>
                     </Node>
                     <Node name="Service" expanded="True">
-                      <Node name="AuthService" expanded="True">
-                        <Node name="IAuthService.cs" selected="True" />
-                      </Node>
-                      <Node name="Location" expanded="True" />
-                      <Node name="Notification" expanded="True" />
+                      <Node name="Network" expanded="True" />
                     </Node>
-                  </Node>
-                  <Node name="LightDe.WebApi.Core" expanded="True">
-                    <Node name="Data" expanded="True" />
-                    <Node name="Domain" expanded="True">
-                      <Node name="Property" expanded="True" />
-                    </Node>
-                    <Node name="Migrations" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="LightDe-Web" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -77,13 +61,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthController.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthController.cs" line="43" column="1" />
+      <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthController.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/AuthController.cs" line="47" column="1" />
       <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/PersonaController.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/PersonaController.cs" line="103" column="1" />
       <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/PersonaService.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/PersonaService.cs" line="126" column="1" />
       <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Location/LocationService.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Location/LocationService.cs" line="53" column="1" />
       <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/LigthLocationController.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Api/Controllers/LigthLocationController.cs" line="62" column="1" />
       <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Location/LocationService.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Location/LocationService.cs" line="46" column="1" />
       <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Location/LocationService.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/Location/LocationService.cs" line="126" column="1" />
+      <Breakpoint file="/Users/tagbo/Projects/Light/src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/AuthService.cs" relfile="src/LightDe-Api/src/LightDe.WebApi.Apllication/Service/AuthService/AuthService.cs" line="82" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
